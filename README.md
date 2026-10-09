@@ -10,10 +10,13 @@ Program bentuk geometri dengan class Bentuk, BujurSangkar, Lingkaran, dan Silind
 Dilengkapi menu sederhana memakai Scanner.
 
 ## Struktur Class
+
+```
 Bentuk
  ├── BujurSangkar
  └── Lingkaran
        └── Silinder
+```
 
 ## Encapsulation
 Atribut dibuat private (sisi, radius, tinggi) sehingga hanya bisa diakses lewat
