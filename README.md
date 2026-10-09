@@ -10,8 +10,10 @@ Program bentuk geometri dengan class Bentuk, BujurSangkar, Lingkaran, dan Silind
 Dilengkapi menu sederhana memakai Scanner.
 
 ## Struktur Class
-Bentuk -> BujurSangkar
-Bentuk -> Lingkaran -> Silinder
+Bentuk
+ ├── BujurSangkar
+ └── Lingkaran
+       └── Silinder
 
 ## Encapsulation
 Atribut dibuat private (sisi, radius, tinggi) sehingga hanya bisa diakses lewat
@@ -23,8 +25,11 @@ turunan, dan tetap dapat diubah lewat getWarna() dan setWarna().
 - BujurSangkar extends Bentuk
 - Lingkaran extends Bentuk
 - Silinder extends Lingkaran
+
 Class turunan memakai super(...) untuk memanggil constructor class induknya.
-Silinder mewarisi radius, warna, dan hitungLuas() dari Lingkaran.
+Atribut radius bersifat private di Lingkaran, sehingga Silinder tidak mengaksesnya
+secara langsung. Silinder memakai getRadius() dan hitungLuas() yang diwarisi
+dari Lingkaran, serta atribut warna (protected) dari Bentuk.
 
 ## Polymorphism
 Method printInfo() di-override pada setiap class turunan sehingga menampilkan
