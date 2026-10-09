@@ -43,6 +43,7 @@ Tidak ada. Hanya memakai java.util.Scanner bawaan Java.
 ## Screenshot Hasil
 <img width="393" height="570" alt="hasil1" src="https://github.com/user-attachments/assets/08fbc942-cf4e-4a63-97be-8184c7f4f0fe" />
 
+
 ->
 
 <img width="412" height="515" alt="hasil2" src="https://github.com/user-attachments/assets/d6a3658f-d032-4db0-a357-e873415098ac" />
